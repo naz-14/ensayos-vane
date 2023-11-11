@@ -10,17 +10,17 @@ function OpcionesPrueba() {
         <h1 className="text-xl mb-5">Selecciona alguna de las pruebas</h1>
       </div>
       <div className="flex justify-between">
-        <Link to={`${location}/BA`}>
+        <Link to={`/instrucciones/prueba/BA`}>
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
             BA
           </button>
         </Link>
-        <Link to={`${location}/CB`}>
+        <Link to={`/instrucciones/prueba/CB`}>
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
             CB
           </button>
         </Link>
-        <Link to={`${location}/AC`}>
+        <Link to={`/instrucciones/prueba/AC`}>
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
             AC
           </button>
