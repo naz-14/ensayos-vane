@@ -1,0 +1,132 @@
+{
+  "ensayos": {
+    "familiarizacion": [
+      {
+        "id": 1,
+        "estimulo": "imagen",
+        "archivo": "vite.svg",
+        "instrucciones": "Selecciona la opcion que es igual a la imagen",
+        "opciones": [
+          {
+            "estimulo": "sonido",
+            "archivo": "laser.mp3",
+            "esCorrecto": false
+          },
+          {
+            "estimulo": "texto",
+            "archivo": "Naranja",
+            "esCorrecto": false
+          },
+          {
+            "estimulo": "imagen",
+            "archivo": "vite.svg",
+            "esCorrecto": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "estimulo": "imagen",
+        "archivo": "vite.svg",
+        "instrucciones": "Selecciona la opcion que es igual",
+        "opciones": [
+          {
+            "estimulo": "sonido",
+            "archivo": "laser.mp3",
+            "esCorrecto": false
+          },
+          {
+            "estimulo": "texto",
+            "archivo": "Naranja",
+            "esCorrecto": false
+          },
+          {
+            "estimulo": "imagen",
+            "archivo": "vite.svg",
+            "esCorrecto": true
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "estimulo": "imagen",
+        "archivo": "vite.svg",
+        "instrucciones": "Selecciona la opcion que es igual",
+        "opciones": [
+          {
+            "estimulo": "sonido",
+            "archivo": "laser.mp3",
+            "esCorrecto": false
+          },
+          {
+            "estimulo": "texto",
+            "archivo": "Naranja",
+            "esCorrecto": false
+          },
+          {
+            "estimulo": "imagen",
+            "archivo": "vite.svg",
+            "esCorrecto": true
+          }
+        ]
+      }
+    ],
+    "entrenamiento": {
+      "AB": [
+        {
+          "id": 3,
+          "estimulo": "imagen",
+          "archivo": "vite.svg",
+          "instrucciones": "Selecciona la opcion que es igual a la imagen",
+          "opciones": [
+            {
+              "estimulo": "texto",
+              "archivo": "Uvas",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "texto",
+              "archivo": "Naranja",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "imagen",
+              "archivo": "vite.svg",
+              "esCorrecto": true
+            }
+          ]
+        }
+      ],
+      "BC": []
+    },
+    "prueba": {
+      "BA": [
+        {
+          "id": 4,
+          "estimulo": "imagen",
+          "archivo": "vite.svg",
+          "instrucciones": "Selecciona la opcion que es igual a la imagen",
+          "opciones": [
+            {
+              "estimulo": "texto",
+              "archivo": "Uvas",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "texto",
+              "archivo": "Naranja",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "imagen",
+              "archivo": "vite.svg",
+              "esCorrecto": true
+            }
+          ]
+        }
+      ],
+      "CB": [],
+      "AC": []
+    }
+  }
+}

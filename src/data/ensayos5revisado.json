@@ -1,0 +1,2436 @@
+{
+  "ensayos": {
+    "familiarizacion": [
+      {
+        "id": 1,
+        "estimulo": "Palabra",
+        "archivo": "Tambor",
+        "instrucciones": "Selecciona la imagen que corresponda a la palabra presentada",
+        "opciones": [
+          {
+            "estimulo": "Imagen",
+            "archivo": "tambor.jpeg",
+            "esCorrecto": true
+          },
+          {
+            "estimulo": "Imagen",
+            "archivo": "guitarra.jpeg",
+            "esCorrecto": false
+          },
+          {
+            "estimulo": "Imagen",
+            "archivo": "piano.jpeg",
+            "esCorrecto": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "estimulo": "Imagen",
+        "archivo": "tambor.jpeg",
+        "instrucciones": "Selecciona la palabra que corresponda a la imagen presentada",
+        "opciones": [
+          {
+            "estimulo": "Palabra",
+            "archivo": "Guitarra",
+            "esCorrecto": false
+          },
+          {
+            "estimulo": "Palabra",
+            "archivo": "Piano",
+            "esCorrecto": false
+          },
+          {
+            "estimulo": "Palabra",
+            "archivo": "Tambor",
+            "esCorrecto": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "estimulo": "Imagen",
+        "archivo": "tambor.jpeg",
+        "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
+        "opciones": [
+          {
+            "estimulo": "Audio",
+            "archivo": "flauta.mp3",
+            "esCorrecto": false
+          },
+          {
+            "estimulo": "Audio",
+            "archivo": "tambores.mp3",
+            "esCorrecto": true
+          },
+          {
+            "estimulo": "Audio",
+            "archivo": "trompetas.mp3",
+            "esCorrecto": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "estimulo": "Audio",
+        "archivo": "tambores.mp3",
+        "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
+        "opciones": [
+          {
+            "estimulo": "Imagen",
+            "archivo": "tambor.jpeg",
+            "esCorrecto": true
+          },
+          {
+            "estimulo": "Imagen",
+            "archivo": "guitarra.jpeg",
+            "esCorrecto": false
+          },
+          {
+            "estimulo": "Imagen",
+            "archivo": "piano.jpeg",
+            "esCorrecto": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "estimulo": "Palabra",
+        "archivo": "Tambor",
+        "instrucciones": "Selecciona el audio que corresponda a la palabra presentada",
+        "opciones": [
+          {
+            "estimulo": "Audio",
+            "archivo": "maracas.mp3",
+            "esCorrecto": false
+          },
+          {
+            "estimulo": "Audio",
+            "archivo": "tambores.mp3",
+            "esCorrecto": true
+          },
+          {
+            "estimulo": "Audio",
+            "archivo": "violin.mp3",
+            "esCorrecto": false
+          }
+        ]
+      }
+    ],
+    "entrenamiento": {
+      "AB": [
+        {
+          "id": 1,
+          "estimulo": "Palabra",
+          "archivo": "Zitrone",
+          "instrucciones": "Selecciona la imagen que corresponda a la palabra que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "limon.jpg",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "uvas.png",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "fresa.jpg",
+              "esCorrecto": false
+            }
+          ]
+        },
+
+        {
+          "id": 2,
+          "estimulo": "Palabra",
+          "archivo": "Zitrone",
+          "instrucciones": "Selecciona la imagen que corresponda a la palabra que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "piña.jpg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "limon.jpg",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "cereza.jpg",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "estimulo": "Palabra",
+          "archivo": "Trauben",
+          "instrucciones": "Selecciona la imagen que corresponda a la palabra que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "fresa.jpg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "cereza.jpg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "uvas.png",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "estimulo": "Palabra",
+          "archivo": "Trauben",
+          "instrucciones": "Selecciona la imagen que corresponda a la palabra que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "uvas.png",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "piña.jpg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "limon.jpg",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "estimulo": "Palabra",
+          "archivo": "Erdbeere",
+          "instrucciones": "Selecciona la imagen que corresponda a la palabra que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "piña.jpg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "fresa.jpg",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "cereza.jpg",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "estimulo": "Palabra",
+          "archivo": "Erdbeere",
+          "instrucciones": "Selecciona la imagen que corresponda a la palabra que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "fresa.jpg",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "uvas.png",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "limon.jpg",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "estimulo": "Palabra",
+          "archivo": "Kirsche",
+          "instrucciones": "Selecciona la imagen que corresponda a la palabra que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "uvas.png",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "limon.jpg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "cereza.jpg",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "estimulo": "Palabra",
+          "archivo": "Kirsche",
+          "instrucciones": "Selecciona la imagen que corresponda a la palabra que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "fresa.jpg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "cereza.jpg",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "piña.jpg",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "estimulo": "Palabra",
+          "archivo": "Ananas",
+          "instrucciones": "Selecciona la imagen que corresponda a la palabra que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "cereza.jpg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "piña.jpg",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "fresa.jpg",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "estimulo": "Palabra",
+          "archivo": "Ananas",
+          "instrucciones": "Selecciona la imagen que corresponda a la palabra que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "piña.jpg",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "uvas.png",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "limon.jpg",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "estimulo": "Palabra",
+          "archivo": "Gelb",
+          "instrucciones": "Selecciona la imagen que corresponda a la palabra que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "Negro.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Amarillo.jpeg",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "verde.jpeg",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "estimulo": "Palabra",
+          "archivo": "Gelb",
+          "instrucciones": "Selecciona la imagen que corresponda a la palabra que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "Azul.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Rojo.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Amarillo.jpeg",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "estimulo": "Palabra",
+          "archivo": "Schwarz",
+          "instrucciones": "Selecciona la imagen que corresponda a la palabra que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "Amarillo.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Negro.jpeg",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Azul.jpeg",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "estimulo": "Palabra",
+          "archivo": "Schwarz",
+          "instrucciones": "Selecciona la imagen que corresponda a la palabra que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "verde.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Rojo.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Negro.jpeg",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "estimulo": "Palabra",
+          "archivo": "Blau",
+          "instrucciones": "Selecciona la imagen que corresponda a la palabra que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "Azul.jpeg",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Rojo.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Negro.jpeg",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "estimulo": "Palabra",
+          "archivo": "Blau",
+          "instrucciones": "Selecciona la imagen que corresponda a la palabra que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "Amarillo.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "verde.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Azul.jpeg",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "estimulo": "Palabra",
+          "archivo": "Rot",
+          "instrucciones": "Selecciona la imagen que corresponda a la palabra que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "Azul.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Rojo.jpeg",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "verde.jpeg",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "estimulo": "Palabra",
+          "archivo": "Rot",
+          "instrucciones": "Selecciona la imagen que corresponda a la palabra que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "Rojo.jpeg",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Negro.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Amarillo.jpeg",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "estimulo": "Palabra",
+          "archivo": "Grün",
+          "instrucciones": "Selecciona la imagen que corresponda a la palabra que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "Azul.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Rojo.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "verde.jpeg",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "estimulo": "Palabra",
+          "archivo": "Grün",
+          "instrucciones": "Selecciona la imagen que corresponda a la palabra que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "verde.jpeg",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Negro.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Amarillo.jpeg",
+              "esCorrecto": false
+            }
+          ]
+        }
+      ],
+      "BC": [
+        {
+          "id": 21,
+          "estimulo": "Imagen",
+          "archivo": "Amarillo.jpeg",
+          "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "verde.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "negro.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "amarillo.mp3",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "estimulo": "Imagen",
+          "archivo": "Amarillo.jpeg",
+          "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "rojo.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "azul.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "amarillo.mp3",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "estimulo": "Imagen",
+          "archivo": "Negro.jpeg",
+          "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "amarillo.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "azul.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "negro.mp3",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "estimulo": "Imagen",
+          "archivo": "Negro.jpeg",
+          "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "negro.mp3",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "verde.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "rojo.mp3",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "estimulo": "Imagen",
+          "archivo": "Azul.jpeg",
+          "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "rojo.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "negro.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "azul.mp3",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "estimulo": "Imagen",
+          "archivo": "Azul.jpeg",
+          "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "azul.mp3",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "verde.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "amarillo.mp3",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "estimulo": "Imagen",
+          "archivo": "Rojo.jpeg",
+          "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "verde.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "rojo.mp3",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "azul.mp3",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "estimulo": "Imagen",
+          "archivo": "Rojo.jpeg",
+          "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "rojo.mp3",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "amarillo.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "negro.mp3",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "estimulo": "Imagen",
+          "archivo": "verde.jpeg",
+          "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "rojo.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "verde.mp3",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "azul.mp3",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "estimulo": "Imagen",
+          "archivo": "verde.jpeg",
+          "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "amarillo.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "negro.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "verde.mp3",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "estimulo": "Imagen",
+          "archivo": "limon.jpg",
+          "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "fresa.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "limon.mp3",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "uvas.mp3",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "estimulo": "Imagen",
+          "archivo": "limon.jpg",
+          "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "limon.mp3",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "cereza.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "piña.mp3",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "estimulo": "Imagen",
+          "archivo": "uvas.png",
+          "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "cereza.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "uvas.mp3",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "fresa.mp3",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "estimulo": "Imagen",
+          "archivo": "uvas.png",
+          "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "limon.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "piña.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "uvas.mp3",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "estimulo": "Imagen",
+          "archivo": "fresa.jpg",
+          "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "cereza.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "piña.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "fresa.mp3",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "estimulo": "Imagen",
+          "archivo": "fresa.jpg",
+          "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "uvas.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "limon.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "fresa.mp3",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "estimulo": "Imagen",
+          "archivo": "cereza.jpg",
+          "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "uvas.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "cereza.mp3",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "limon.mp3",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "estimulo": "Imagen",
+          "archivo": "cereza.jpg",
+          "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "piña.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "fresa.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "cereza.mp3",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "estimulo": "Imagen",
+          "archivo": "piña.jpg",
+          "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "fresa.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "piña.mp3",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "cereza.mp3",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "estimulo": "Imagen",
+          "archivo": "piña.jpg",
+          "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "uvas.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "limon.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "piña.mp3",
+              "esCorrecto": true
+            }
+          ]
+        }
+      ]
+    },
+    "prueba": {
+      "BA": [
+        {
+          "id": 41,
+          "estimulo": "Imagen",
+          "archivo": "limon.jpg",
+          "instrucciones": "Selecciona la palabra que corresponda a la imagen que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Palabra",
+              "archivo": "Trauben",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Zitrone",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Erdbeere",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "estimulo": "Imagen",
+          "archivo": "limon.jpg",
+          "instrucciones": "Selecciona la palabra que corresponda a la imagen que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Palabra",
+              "archivo": "Kirsche",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Ananas",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Zitrone",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 43,
+          "estimulo": "Imagen",
+          "archivo": "uvas.png",
+          "instrucciones": "Selecciona la palabra que corresponda a la imagen que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Palabra",
+              "archivo": "Kirsche",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Erdbeere",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Trauben",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "estimulo": "Imagen",
+          "archivo": "uvas.png",
+          "instrucciones": "Selecciona la palabra que corresponda a la imagen que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Palabra",
+              "archivo": "Zitrone",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Trauben",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Ananas",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "estimulo": "Imagen",
+          "archivo": "fresa.jpg",
+          "instrucciones": "Selecciona la palabra que corresponda a la imagen que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Palabra",
+              "archivo": "Kirsche",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Ananas",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Erdbeere",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 46,
+          "estimulo": "Imagen",
+          "archivo": "fresa.jpg",
+          "instrucciones": "Selecciona la palabra que corresponda a la imagen que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Palabra",
+              "archivo": "Kirsche",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Ananas",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Erdbeere",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 47,
+          "estimulo": "Imagen",
+          "archivo": "cereza.jpg",
+          "instrucciones": "Selecciona la palabra que corresponda a la imagen que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Palabra",
+              "archivo": "Trauben",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Kirsche",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Zitrone",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "estimulo": "Imagen",
+          "archivo": "cereza.jpg",
+          "instrucciones": "Selecciona la palabra que corresponda a la imagen que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Palabra",
+              "archivo": "Ananas",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Erdbeere",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Zitrone",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 49,
+          "estimulo": "Imagen",
+          "archivo": "piña.jpg",
+          "instrucciones": "Selecciona la palabra que corresponda a la imagen que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Palabra",
+              "archivo": "Ananas",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Kirsche",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Erdbeere",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 50,
+          "estimulo": "Imagen",
+          "archivo": "piña.jpg",
+          "instrucciones": "Selecciona la palabra que corresponda a la imagen que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Palabra",
+              "archivo": "Zitrone",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Trauben",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Ananas",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 51,
+          "estimulo": "Imagen",
+          "archivo": "Amarillo.jpeg",
+          "instrucciones": "Selecciona la palabra que corresponda a la imagen que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Palabra",
+              "archivo": "Gelb",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Schwarz",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Grün",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 52,
+          "estimulo": "Imagen",
+          "archivo": "Amarillo.jpeg",
+          "instrucciones": "Selecciona la palabra que corresponda a la imagen que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Palabra",
+              "archivo": "Rot",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Blau",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Gelb",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 53,
+          "estimulo": "Imagen",
+          "archivo": "Negro.jpeg",
+          "instrucciones": "Selecciona la palabra que corresponda a la imagen que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Palabra",
+              "archivo": "Blau",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Gelb",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Schwarz",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "estimulo": "Imagen",
+          "archivo": "Negro.jpeg",
+          "instrucciones": "Selecciona la palabra que corresponda a la imagen que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Palabra",
+              "archivo": "Grün",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Schwarz",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Rot",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 55,
+          "estimulo": "Imagen",
+          "archivo": "Azul.jpeg",
+          "instrucciones": "Selecciona la palabra que corresponda a la imagen que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Palabra",
+              "archivo": "Schwarz",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Rot",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Blau",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 56,
+          "estimulo": "Imagen",
+          "archivo": "Azul.jpeg",
+          "instrucciones": "Selecciona la palabra que corresponda a la imagen que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Palabra",
+              "archivo": "Grün",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Gelb",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Blau",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "estimulo": "Imagen",
+          "archivo": "Rojo.jpeg",
+          "instrucciones": "Selecciona la palabra que corresponda a la imagen que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Palabra",
+              "archivo": "Rot",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Grün",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Blau",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 58,
+          "estimulo": "Imagen",
+          "archivo": "Rojo.jpeg",
+          "instrucciones": "Selecciona la palabra que corresponda a la imagen que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Palabra",
+              "archivo": "Gelb",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Schwarz",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Rot",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 59,
+          "estimulo": "Imagen",
+          "archivo": "verde.jpeg",
+          "instrucciones": "Selecciona la palabra que corresponda a la imagen que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Palabra",
+              "archivo": "Rot",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Grün",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Blau",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 60,
+          "estimulo": "Imagen",
+          "archivo": "verde.jpeg",
+          "instrucciones": "Selecciona la palabra que corresponda a la imagen que se muestra ",
+          "opciones": [
+            {
+              "estimulo": "Palabra",
+              "archivo": "Gelb",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Schwarz",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Palabra",
+              "archivo": "Grün",
+              "esCorrecto": true
+            }
+          ]
+        }
+      ],
+      "CB": [
+        {
+          "id": 61,
+          "estimulo": "Audio",
+          "archivo": "limon.mp3",
+          "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "fresa.jpg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "uvas.png",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "limon.jpg",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 62,
+          "estimulo": "Audio",
+          "archivo": "limon.mp3",
+          "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "cereza.jpg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "limon.jpg",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "piña.jpg",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 63,
+          "estimulo": "Audio",
+          "archivo": "uvas.mp3",
+          "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "uvas.png",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "cereza.jpg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "fresa.jpg",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 64,
+          "estimulo": "Audio",
+          "archivo": "uvas.mp3",
+          "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "piña.jpg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "limon.jpg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "uvas.png",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 65,
+          "estimulo": "Audio",
+          "archivo": "fresa.mp3",
+          "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "piña.jpg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "cereza.jpg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "fresa.jpg",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 66,
+          "estimulo": "Audio",
+          "archivo": "fresa.mp3",
+          "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "limon.jpg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "fresa.jpg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "uvas.png",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 67,
+          "estimulo": "Audio",
+          "archivo": "cereza.mp3",
+          "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "cereza.jpg",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "uvas.png",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "limon.jpg",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 68,
+          "estimulo": "Audio",
+          "archivo": "cereza.mp3",
+          "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "fresa.jpg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "piña.jpg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "cereza.jpg",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 69,
+          "estimulo": "Audio",
+          "archivo": "piña.mp3",
+          "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "fresa.jpg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "piña.jpg",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "cereza.jpg",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 70,
+          "estimulo": "Audio",
+          "archivo": "piña.mp3",
+          "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "piña.jpg",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "uvas.png",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "limon.jpg",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 71,
+          "estimulo": "Audio",
+          "archivo": "amarillo.mp3",
+          "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "Negro.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "verde.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Amarillo.jpeg",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 72,
+          "estimulo": "Audio",
+          "archivo": "amarillo.mp3",
+          "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "Azul.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Rojo.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Amarillo.jpeg",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 73,
+          "estimulo": "Audio",
+          "archivo": "negro.mp3",
+          "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "Amarillo.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Negro.jpeg",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Azul.jpeg",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 74,
+          "estimulo": "Audio",
+          "archivo": "negro.mp3",
+          "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "verde.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Rojo.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Negro.jpeg",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "estimulo": "Audio",
+          "archivo": "azul.mp3",
+          "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "Negro.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Rojo.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Azul.jpeg",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 76,
+          "estimulo": "Audio",
+          "archivo": "azul.mp3",
+          "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "Amarillo.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Azul.jpeg",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "verde.jpeg",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 77,
+          "estimulo": "Audio",
+          "archivo": "rojo.mp3",
+          "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "verde.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Rojo.jpeg",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Azul.jpeg",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 78,
+          "estimulo": "Audio",
+          "archivo": "rojo.mp3",
+          "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "Negro.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Amarillo.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Rojo.jpeg",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 79,
+          "estimulo": "Audio",
+          "archivo": "verde.mp3",
+          "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "Azul.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "verde.jpeg",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Rojo.jpeg",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 80,
+          "estimulo": "Audio",
+          "archivo": "verde.mp3",
+          "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
+          "opciones": [
+            {
+              "estimulo": "Imagen",
+              "archivo": "verde.jpeg",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Amarillo.jpeg",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Imagen",
+              "archivo": "Negro.jpeg",
+              "esCorrecto": false
+            }
+          ]
+        }
+      ],
+      "AC": [
+        {
+          "id": 81,
+          "estimulo": "Palabra",
+          "archivo": "Zitrone",
+          "instrucciones": "Selecciona el audio que corresponda a la palabra presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "uvas.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "fresa.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "limon.mp3",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 82,
+          "estimulo": "Palabra",
+          "archivo": "Zitrone",
+          "instrucciones": "Selecciona el audio que corresponda a la palabra presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "limon.mp3",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "cereza.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "piña.mp3",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 83,
+          "estimulo": "Palabra",
+          "archivo": "Trauben",
+          "instrucciones": "Selecciona el audio que corresponda a la palabra presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "cereza.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "uvas.mp3",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "fresa.mp3",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 84,
+          "estimulo": "Palabra",
+          "archivo": "Trauben",
+          "instrucciones": "Selecciona el audio que corresponda a la palabra presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "limon.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "piña.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "uvas.mp3",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 85,
+          "estimulo": "Palabra",
+          "archivo": "Erdbeere",
+          "instrucciones": "Selecciona el audio que corresponda a la palabra presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "cereza.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "piña.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "fresa.mp3",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 86,
+          "estimulo": "Palabra",
+          "archivo": "Erdbeere",
+          "instrucciones": "Selecciona el audio que corresponda a la palabra presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "uvas.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "fresa.mp3",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "limon.mp3",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 87,
+          "estimulo": "Palabra",
+          "archivo": "Kirsche",
+          "instrucciones": "Selecciona el audio que corresponda a la palabra presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "limon.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "uvas.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "cereza.mp3",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 88,
+          "estimulo": "Palabra",
+          "archivo": "Kirsche",
+          "instrucciones": "Selecciona el audio que corresponda a la palabra presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "piña.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "fresa.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "cereza.mp3",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 89,
+          "estimulo": "Palabra",
+          "archivo": "Grün",
+          "instrucciones": "Selecciona el audio que corresponda a la palabra presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "fresa.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "cereza.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "piña.mp3",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 90,
+          "estimulo": "Palabra",
+          "archivo": "Grün",
+          "instrucciones": "Selecciona el audio que corresponda a la palabra presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "piña.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "limon.mp3",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "uvas.mp3",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 91,
+          "estimulo": "Palabra",
+          "archivo": "Gelb",
+          "instrucciones": "Selecciona el audio que corresponda a la palabra presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "verde.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "negro.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "amarillo.mp3",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 92,
+          "estimulo": "Palabra",
+          "archivo": "Gelb",
+          "instrucciones": "Selecciona el audio que corresponda a la palabra presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "rojo.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "amarillo.mp3",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "azul.mp3",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 93,
+          "estimulo": "Palabra",
+          "archivo": "Schwarz",
+          "instrucciones": "Selecciona el audio que corresponda a la palabra presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "azul.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "negro.mp3",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "amarillo.mp3",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 94,
+          "estimulo": "Palabra",
+          "archivo": "Schwarz",
+          "instrucciones": "Selecciona el audio que corresponda a la palabra presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "negro.mp3",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "verde.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "rojo.mp3",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 95,
+          "estimulo": "Palabra",
+          "archivo": "Blau",
+          "instrucciones": "Selecciona el audio que corresponda a la palabra presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "negro.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "azul.mp3",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "rojo.mp3",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 96,
+          "estimulo": "Palabra",
+          "archivo": "Blau",
+          "instrucciones": "Selecciona el audio que corresponda a la palabra presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "verde.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "amarillo.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "azul.mp3",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 97,
+          "estimulo": "Palabra",
+          "archivo": "Rot",
+          "instrucciones": "Selecciona el audio que corresponda a la palabra presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "azul.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "verde.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "rojo.mp3",
+              "esCorrecto": true
+            }
+          ]
+        },
+        {
+          "id": 98,
+          "estimulo": "Palabra",
+          "archivo": "Rot",
+          "instrucciones": "Selecciona el audio que corresponda a la palabra presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "amarillo.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "rojo.mp3",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "negro.mp3",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 99,
+          "estimulo": "Palabra",
+          "archivo": "Grün",
+          "instrucciones": "Selecciona el audio que corresponda a la palabra presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "verde.mp3",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "rojo.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "azul.mp3",
+              "esCorrecto": false
+            }
+          ]
+        },
+        {
+          "id": 100,
+          "estimulo": "Palabra",
+          "archivo": "Grün",
+          "instrucciones": "Selecciona el audio que corresponda a la palabra presentada",
+          "opciones": [
+            {
+              "estimulo": "Audio",
+              "archivo": "amarillo.mp3",
+              "esCorrecto": false
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "verde.mp3",
+              "esCorrecto": true
+            },
+            {
+              "estimulo": "Audio",
+              "archivo": "negro.mp3",
+              "esCorrecto": false
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
