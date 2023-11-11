@@ -12,7 +12,7 @@ function Finish() {
         </Link>
       </div>
       <div
-        className="flex-row align-center justify-center"
+        className="h-screen flex flex-col justify-center"
         style={{ height: "100vh" }}
       >
         <h1 className="text-xl">Muchas gracias por participar!</h1>

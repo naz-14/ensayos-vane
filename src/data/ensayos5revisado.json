@@ -151,7 +151,7 @@
           "opciones": [
             {
               "estimulo": "Imagen",
-              "archivo": "piña.jpg",
+              "archivo": "pina.jpg",
               "esCorrecto": false
             },
             {
@@ -202,7 +202,7 @@
             },
             {
               "estimulo": "Imagen",
-              "archivo": "piña.jpg",
+              "archivo": "pina.jpg",
               "esCorrecto": false
             },
             {
@@ -220,7 +220,7 @@
           "opciones": [
             {
               "estimulo": "Imagen",
-              "archivo": "piña.jpg",
+              "archivo": "pina.jpg",
               "esCorrecto": false
             },
             {
@@ -299,7 +299,7 @@
             },
             {
               "estimulo": "Imagen",
-              "archivo": "piña.jpg",
+              "archivo": "pina.jpg",
               "esCorrecto": false
             }
           ]
@@ -317,7 +317,7 @@
             },
             {
               "estimulo": "Imagen",
-              "archivo": "piña.jpg",
+              "archivo": "pina.jpg",
               "esCorrecto": true
             },
             {
@@ -335,7 +335,7 @@
           "opciones": [
             {
               "estimulo": "Imagen",
-              "archivo": "piña.jpg",
+              "archivo": "pina.jpg",
               "esCorrecto": true
             },
             {
@@ -853,7 +853,7 @@
             },
             {
               "estimulo": "Audio",
-              "archivo": "piña.mp3",
+              "archivo": "pina.mp3",
               "esCorrecto": false
             }
           ]
@@ -894,7 +894,7 @@
             },
             {
               "estimulo": "Audio",
-              "archivo": "piña.mp3",
+              "archivo": "pina.mp3",
               "esCorrecto": false
             },
             {
@@ -917,7 +917,7 @@
             },
             {
               "estimulo": "Audio",
-              "archivo": "piña.mp3",
+              "archivo": "pina.mp3",
               "esCorrecto": false
             },
             {
@@ -981,7 +981,7 @@
           "opciones": [
             {
               "estimulo": "Audio",
-              "archivo": "piña.mp3",
+              "archivo": "pina.mp3",
               "esCorrecto": false
             },
             {
@@ -999,7 +999,7 @@
         {
           "id": 39,
           "estimulo": "Imagen",
-          "archivo": "piña.jpg",
+          "archivo": "pina.jpg",
           "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
           "opciones": [
             {
@@ -1009,7 +1009,7 @@
             },
             {
               "estimulo": "Audio",
-              "archivo": "piña.mp3",
+              "archivo": "pina.mp3",
               "esCorrecto": true
             },
             {
@@ -1022,7 +1022,7 @@
         {
           "id": 40,
           "estimulo": "Imagen",
-          "archivo": "piña.jpg",
+          "archivo": "pina.jpg",
           "instrucciones": "Selecciona el audio que corresponda a la imagen presentada",
           "opciones": [
             {
@@ -1037,7 +1037,7 @@
             },
             {
               "estimulo": "Audio",
-              "archivo": "piña.mp3",
+              "archivo": "pina.mp3",
               "esCorrecto": true
             }
           ]
@@ -1233,7 +1233,7 @@
         {
           "id": 49,
           "estimulo": "Imagen",
-          "archivo": "piña.jpg",
+          "archivo": "pina.jpg",
           "instrucciones": "Selecciona la palabra que corresponda a la imagen que se muestra ",
           "opciones": [
             {
@@ -1256,7 +1256,7 @@
         {
           "id": 50,
           "estimulo": "Imagen",
-          "archivo": "piña.jpg",
+          "archivo": "pina.jpg",
           "instrucciones": "Selecciona la palabra que corresponda a la imagen que se muestra ",
           "opciones": [
             {
@@ -1549,7 +1549,7 @@
             },
             {
               "estimulo": "Imagen",
-              "archivo": "piña.jpg",
+              "archivo": "pina.jpg",
               "esCorrecto": true
             }
           ]
@@ -1585,7 +1585,7 @@
           "opciones": [
             {
               "estimulo": "Imagen",
-              "archivo": "piña.jpg",
+              "archivo": "pina.jpg",
               "esCorrecto": false
             },
             {
@@ -1608,7 +1608,7 @@
           "opciones": [
             {
               "estimulo": "Imagen",
-              "archivo": "piña.jpg",
+              "archivo": "pina.jpg",
               "esCorrecto": false
             },
             {
@@ -1682,7 +1682,7 @@
             },
             {
               "estimulo": "Imagen",
-              "archivo": "piña.jpg",
+              "archivo": "pina.jpg",
               "esCorrecto": false
             },
             {
@@ -1695,7 +1695,7 @@
         {
           "id": 69,
           "estimulo": "Audio",
-          "archivo": "piña.mp3",
+          "archivo": "pina.mp3",
           "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
           "opciones": [
             {
@@ -1705,7 +1705,7 @@
             },
             {
               "estimulo": "Imagen",
-              "archivo": "piña.jpg",
+              "archivo": "pina.jpg",
               "esCorrecto": true
             },
             {
@@ -1718,12 +1718,12 @@
         {
           "id": 70,
           "estimulo": "Audio",
-          "archivo": "piña.mp3",
+          "archivo": "pina.mp3",
           "instrucciones": "Selecciona la imagen que corresponda al audio presentado",
           "opciones": [
             {
               "estimulo": "Imagen",
-              "archivo": "piña.jpg",
+              "archivo": "pina.jpg",
               "esCorrecto": true
             },
             {
@@ -2011,7 +2011,7 @@
             },
             {
               "estimulo": "Audio",
-              "archivo": "piña.mp3",
+              "archivo": "pina.mp3",
               "esCorrecto": false
             }
           ]
@@ -2052,7 +2052,7 @@
             },
             {
               "estimulo": "Audio",
-              "archivo": "piña.mp3",
+              "archivo": "pina.mp3",
               "esCorrecto": false
             },
             {
@@ -2075,7 +2075,7 @@
             },
             {
               "estimulo": "Audio",
-              "archivo": "piña.mp3",
+              "archivo": "pina.mp3",
               "esCorrecto": false
             },
             {
@@ -2139,7 +2139,7 @@
           "opciones": [
             {
               "estimulo": "Audio",
-              "archivo": "piña.mp3",
+              "archivo": "pina.mp3",
               "esCorrecto": false
             },
             {
@@ -2172,7 +2172,7 @@
             },
             {
               "estimulo": "Audio",
-              "archivo": "piña.mp3",
+              "archivo": "pina.mp3",
               "esCorrecto": true
             }
           ]
@@ -2185,7 +2185,7 @@
           "opciones": [
             {
               "estimulo": "Audio",
-              "archivo": "piña.mp3",
+              "archivo": "pina.mp3",
               "esCorrecto": false
             },
             {
@@ -2219,7 +2219,7 @@
             {
               "estimulo": "Audio",
               "archivo": "amarillo.mp3",
-              "esCorrecto": false
+              "esCorrecto": true
             }
           ]
         },

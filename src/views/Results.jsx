@@ -1,4 +1,6 @@
 import React from "react";
+import { useState } from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 
@@ -10,6 +12,15 @@ function Results() {
     localStorage.removeItem("results");
     localStorage.removeItem("totalTime");
   };
+  useEffect(() => {
+    const correctAnswers = answers.filter(
+      (answer) => answer.correct === answer.answerSelection
+    );
+    const totalAnswers = answers.length;
+    setPercentage((correctAnswers.length * 100) / totalAnswers);
+  }, []);
+  const [percentage, setPercentage] = useState(null);
+
   return (
     <div>
       <div className="fixed ">
@@ -26,6 +37,7 @@ function Results() {
         typeof type === undefined ? "tipo " + type : "-"
       }`}</h1>
       <h1 className="text-xl">{`Tiempo de resolucion: ${totalTime}`}</h1>
+      <h1 className="text-xl">{`Porcentaje correcto: ${percentage}%`}</h1>
       <div className="flex align-center justify-center mt-5">
         <table>
           <thead>
@@ -33,16 +45,24 @@ function Results() {
               <th className="border border-black p-3">Numero</th>
               <th className="border border-black p-3">Respuesta correcta</th>
               <th className="border border-black p-3">Respuesta del usuario</th>
+              <th className="border border-black p-3">Tiempo</th>
               <th className="border border-black p-3">Correcto?</th>
             </tr>
           </thead>
           <tbody>
             {answers.map((answer, index) => {
               return (
-                <tr className={index % 2 === 0 ? "bg-gray-100" : "bg-gray-400"}>
+                <tr
+                  className={
+                    answer.correct === answer.answerSelection
+                      ? "bg-green-500"
+                      : "bg-gray-400"
+                  }
+                >
                   <td className="p-5">{answer.answerId}</td>
                   <td>{answer.correct}</td>
                   <td>{answer.answerSelection}</td>
+                  <td>{answer.seconds}</td>
                   <td>
                     {answer.correct === answer.answerSelection ? "Si" : "No"}
                   </td>

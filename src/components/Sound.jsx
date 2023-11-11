@@ -9,7 +9,7 @@ function Sound({ soundName }) {
   };
 
   return (
-    <div className="btn bg-purple-500 py-2 px-3 rounded flex align-center hover:bg-purple-700">
+    <div className="btn bg-purple-500 py-2 px-3 rounded flex align-center justify-center hover:bg-purple-700">
       <button onClick={start}>
         <div className="flex">
           <img

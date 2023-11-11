@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function OpcionesPrueba() {
   const location = useLocation().pathname;
   return (
-    <>
+    <div className="h-screen flex flex-col justify-center">
       <div>
         <h1 className="text-xl mb-5">Selecciona alguna de las pruebas</h1>
       </div>
@@ -26,7 +26,7 @@ function OpcionesPrueba() {
           </button>
         </Link>
       </div>
-    </>
+    </div>
   );
 }
 

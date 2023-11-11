@@ -42,11 +42,13 @@ function Test({ familiarizacion = false }) {
   useEffect(() => {
     if (formatedData.length != 0) {
       const answersData = formatedData.map((answer) => {
+        console.log({ answer });
         return {
           answerId: answer.id,
           correct: answer.opciones.filter((option) => option.esCorrecto)[0]
             .archivo,
           answerSelection: null,
+          seconds: 0,
         };
       });
       setAnswers(answersData);
@@ -86,11 +88,12 @@ function Test({ familiarizacion = false }) {
     const newAnswers = answers.map((answer) => {
       if (answer.answerId === formatedData[counter].id) {
         const isCorrect = answer.correct === selectedOption;
-        if (!isCorrect) setWrongAnswersCounter(wrongAnswersCounter + 1);
-        setCorrect(answer.correct === selectedOption);
+        // if (!isCorrect) setWrongAnswersCounter(wrongAnswersCounter + 1);
+        setCorrect(isCorrect);
         return {
           ...answer,
           answerSelection: selectedOption,
+          seconds: 10 - seconds,
         };
       }
       return answer;
@@ -102,18 +105,18 @@ function Test({ familiarizacion = false }) {
   const handleNext = () => {
     setNext(false);
     setTotalTime(totalTime + (10 - seconds));
-    if (wrongAnswersCounter > 2) {
-      if (location[0] === "entrenamiento") {
-        alert("Cometiste mas de dos errores reiniciaremos la prueba");
-        setWrongAnswersCounter(0);
-        restart(new Date().setSeconds(new Date().getSeconds() + 10));
-        setCounter(0);
-        setSelectedOption(null);
-        setSubmited(false);
-        setCorrect(null);
-        setGeneralError(generalError + 1);
-      }
-    }
+    // if (wrongAnswersCounter > 2) {
+    //   if (location[0] === "entrenamiento") {
+    //     alert("Cometiste mas de dos errores reiniciaremos la prueba");
+    //     setWrongAnswersCounter(0);
+    //     restart(new Date().setSeconds(new Date().getSeconds() + 10));
+    //     setCounter(0);
+    //     setSelectedOption(null);
+    //     setSubmited(false);
+    //     setCorrect(null);
+    //     setGeneralError(generalError + 1);
+    //   }
+    // }
     if (counter + 1 <= formatedData.length - 1) {
       restart(new Date().setSeconds(new Date().getSeconds() + 10));
       setCounter(counter + 1);
@@ -136,6 +139,7 @@ function Test({ familiarizacion = false }) {
         return {
           ...answer,
           answerSelection: selectedOption,
+          seconds: 10,
         };
       }
       return answer;
@@ -152,9 +156,11 @@ function Test({ familiarizacion = false }) {
     navigate(`/results/${location[0] + "/" + location[1]}`);
   };
 
+  console.log(answers);
+
   return (
-    <div>
-      <div
+    <div className="h-screen flex flex-col justify-center">
+      {/* <div
         style={{
           textAlign: "center",
           position: "absolute",
@@ -164,25 +170,27 @@ function Test({ familiarizacion = false }) {
       >
         <div style={{ fontSize: "50px" }}>
           <span>{seconds}</span>
-        </div>
-      </div>
-      <div className="flex-row justify-center content-center">
+        </div> */}
+      {/* </div> */}
+      <div className="flex flex-col justify-center content-center">
         <div>
-          <h1 className="text-xl">{formatedData[counter]?.instrucciones}</h1>
+          <h1 className="text-xl mb-5">
+            {formatedData[counter]?.instrucciones}
+          </h1>
         </div>
         <div className="flex justify-center">
           {formatedData[counter]?.estimulo === "Imagen" && (
             <img
               src={"/" + formatedData[counter]?.archivo}
               alt={formatedData[counter]?.archivo}
-              style={{ width: "300px" }}
+              style={{ width: "300px", height: "300px" }}
             />
           )}
           {formatedData[counter]?.estimulo === "Audio" && (
             <Sound soundName={formatedData[counter].archivo} />
           )}
           {formatedData[counter]?.estimulo === "Palabra" && (
-            <h2 className="text-2xl font-bold">
+            <h2 className="text-3xl font-bold">
               {formatedData[counter]?.archivo}
             </h2>
           )}
@@ -193,36 +201,40 @@ function Test({ familiarizacion = false }) {
           return (
             <div
               key={index}
-              className={`flex ${
+              className={`flex justify-center ${
                 option.esCorrecto && location[0] != "prueba"
                   ? "border-green-600"
                   : "border-red-600"
               } ${submited && location[0] != "prueba" && "border-4"}`}
               style={{ flexBasis: "33%" }}
             >
-              <input
-                type="radio"
-                value={option.archivo}
-                checked={selectedOption === option.archivo}
-                onChange={handleSelectedOption}
-                disabled={submited}
-                className="mr-5"
-              />
-              {option.estimulo === "Palabra" ? (
-                <p>{option.archivo}</p>
-              ) : option.estimulo === "Audio" ? (
-                <Sound soundName={option.archivo} />
-              ) : (
-                <img
-                  style={{ maxWidth: "90%" }}
-                  src={`/${option.archivo}`}
-                ></img>
-              )}
+              <div className="basis-1/6 flex content-center justify-center">
+                <input
+                  type="radio"
+                  value={option.archivo}
+                  checked={selectedOption === option.archivo}
+                  onChange={handleSelectedOption}
+                  disabled={submited}
+                  style={{ width: "30px", height: "100%" }}
+                />
+              </div>
+              <div className="basis-5/6 flex justify-start">
+                {option.estimulo === "Palabra" ? (
+                  <p className="text-xl">{option.archivo}</p>
+                ) : option.estimulo === "Audio" ? (
+                  <Sound soundName={option.archivo} />
+                ) : (
+                  <img
+                    style={{ maxWidth: "90%", maxHeight: "300px" }}
+                    src={`/${option.archivo}`}
+                  ></img>
+                )}
+              </div>
             </div>
           );
         })}
       </div>
-      <div className="mt-5 flex justify-around">
+      <div className="mt-10 flex justify-around">
         {location[0] === "familiarizacion" ||
         location[0] === "entrenamiento" ? (
           <button
@@ -234,7 +246,7 @@ function Test({ familiarizacion = false }) {
                   ? "bg-green-500"
                   : "bg-red-500"
                 : "bg-blue-500 hover:bg-blue-700"
-            } text-white font-bold py-2 px-4 rounded`}
+            } text-white font-bold py-4 px-6 mt-3 rounded text-xl`}
           >
             {submited && correct && "Muy bien!"}
             {submited && !correct && "La respuesta fue incorrecta"}
@@ -246,7 +258,7 @@ function Test({ familiarizacion = false }) {
             disabled={submited}
             className={`${
               submited ? "bg-green-500" : "bg-blue-500 hover:bg-blue-700"
-            } text-white font-bold py-2 px-4 rounded`}
+            } text-white font-bold py-4 px-6 rounded text-xl`}
           >
             {!submited && "Enviar respuesta"}
             {submited && "Enviado"}

@@ -5,6 +5,7 @@ import Test from "./views/Test";
 import OpcionesPrueba from "./views/OpcionesPrueba";
 import Results from "./views/Results";
 import Finish from "./views/Finish";
+import Instrucciones from "./views/Instrucciones";
 const Router = () => {
   return (
     <>
@@ -25,6 +26,10 @@ const Router = () => {
           </Route>
           <Route path="results/:test/:type?" element={<Results />}></Route>
           <Route path="/finish" element={<Finish />} />
+          <Route
+            path="/instrucciones/:test/:type?"
+            element={<Instrucciones />}
+          />
         </Routes>
       </BrowserRouter>
     </>
