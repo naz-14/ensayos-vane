@@ -174,7 +174,7 @@ function Test({ familiarizacion = false }) {
       {/* </div> */}
       <div className="flex flex-col justify-center content-center">
         <div>
-          <h1 className="text-xl mb-5">
+          <h1 className="text-3xl mb-5">
             {formatedData[counter]?.instrucciones}
           </h1>
         </div>
