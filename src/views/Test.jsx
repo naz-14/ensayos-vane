@@ -190,7 +190,7 @@ function Test({ familiarizacion = false }) {
             <Sound soundName={formatedData[counter].archivo} />
           )}
           {formatedData[counter]?.estimulo === "Palabra" && (
-            <h2 className="text-3xl font-bold">
+            <h2 className="text-4xl font-bold">
               {formatedData[counter]?.archivo}
             </h2>
           )}
